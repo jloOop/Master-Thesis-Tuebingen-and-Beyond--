@@ -39,6 +39,27 @@ Physical Review Applied 24, 014041 (2025).
 
 *Equal contribution.
 
+
+## Scope and contribution note
+
+This folder documents selected experimental R&D material from the Tübingen
+Josephson-ratchet project. The material reflects my thesis-era contribution to
+the project, including device-geometry understanding, I–V and critical-current
+analysis, AC/noise-rectification calculations, setup-level noise considerations,
+and cryogenic measurement-infrastructure work.
+
+The final published Physical Review Applied paper was a collaborative
+experimental project. Fabrication, He-FIB writing, and parts of the final
+measurement campaign involved other group members and collaborators, in
+particular Christoph Schmid. The present repository is therefore not intended to
+claim that every fabrication or measurement step in the final paper was carried
+out by me personally. It is intended to document the analysis, experimental
+preparation, instrumentation context, and thesis-era material connected to my
+contribution.
+
+
+
+
 The journal paper should be cited for the final published scientific results.
 This folder is intended as supporting experimental R&D documentation.
 
