@@ -38,8 +38,3 @@ source calibration, voltage amplifier gain, and cryogenic measurement wiring.
 - `legacy/`: preserved original scripts and notebooks.
 - `data/`: small example or processed data only.
 
-## AI-assistance note
-
-Some scripting was AI-assisted during the thesis/research workflow. All
-scientific interpretation, validation, device analysis, and conclusions were
-reviewed by the author and collaborators.
