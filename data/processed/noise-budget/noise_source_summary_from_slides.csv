@@ -1,0 +1,23 @@
+source_or_setup,condition,reported_sigma_value,reported_sigma_unit,slide_page,notes
+ADC,shorted ADC channels,280,uV,9,ADC baseline estimate from shorted-channel slide
+Vamp/Ics,current-channel baseline,280,pA,11,current-channel noise estimate shown with amplifier/current-source setup
+Vamp,Gain=10,18,uV,11,voltage amplifier contribution from gain sweep
+Vamp,Gain=100,2.11,uV,11,voltage amplifier contribution from gain sweep
+Vamp,Gain=1000,0.46,uV,11,voltage amplifier contribution from gain sweep
+Vamp,Gain=10000,0.126,uV,11,voltage amplifier contribution from gain sweep
+Vamp,Gain=10 chain measurement,85,uV,17,reported voltage noise in combined chain measurement
+Vamp,Gain=100 chain measurement,8.7,uV,17,reported voltage noise in combined chain measurement
+Vamp,Gain=1000 chain measurement,1,uV,17,reported voltage noise in combined chain measurement
+Vamp,Gain=10000 chain measurement,0.15,uV,17,reported voltage noise in combined chain measurement
+Generator,amplitude=1 de-embedded estimate,0.8,uV,16,reported generator contribution after variance-budget estimate
+Thermal resistor,R=50 ohm theory,407,nV,20,Johnson-noise estimate shown in slides
+Thermal resistor,R=1 kohm theory,1.8,uV,20,Johnson-noise estimate shown in slides
+Resistor measurement,R=50 ohm Vamp gain=100,7.8,uV,21,reported measured sigma
+Resistor measurement,R=50 ohm Vamp gain=1000,1,uV,21,reported measured sigma
+Resistor measurement,R=1 kohm Vamp gain=10,81,uV,22,reported measured sigma
+Resistor measurement,R=1 kohm Vamp gain=100,9,uV,22,reported measured sigma
+Resistor measurement,R=1 kohm Vamp gain=1000,2.7,uV,22,reported measured sigma
+Shorted dipstick,Vamp gain=100,8.6,uV,24,reported measured sigma
+Shorted dipstick,Vamp gain=1000,1,uV,24,reported measured sigma
+Connected dipstick,R=50 ohm Vamp gain=1000,1,uV,26,reported measured sigma
+Connected dipstick,R=1 kohm Vamp gain=100,9,uV,27,reported measured sigma
