@@ -19,11 +19,11 @@ reasoning, and laboratory context.
 
 ## Related documentation
 
-- [`../future-noise-operation/`](../future-noise-operation/)  
+- [`../future-noise-operation/`](../future-noise-operation/)
   Follow-up setup-characterization material prepared for future direct
   noise-driven Josephson-ratchet operation.
 
-- [`../instrumentation/dc-dipstick/`](../instrumentation/dc-dipstick/)  
+- [`../instrumentation/dc-dipstick/`](../instrumentation/dc-dipstick/)
   DC cryogenic dipstick design, CAD renders, mechanical drawings, PCB layout,
   fabricated parts, and assembly photographs.
 
