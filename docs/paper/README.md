@@ -23,4 +23,3 @@ and thesis-era material related to:
 - noise-chain preparation;
 - cryogenic measurement hardware and DC dipstick design.
 
-The journal paper should be cited for the final published scientific results.
