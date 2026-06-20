@@ -10,21 +10,19 @@ and cryogenic measurement infrastructure.
 
 ## Main document
 
-* `tuebingen_josephson_ratchet_experimental_review.pdf`
+* `tuebingen_josephson_ratchet_experimental_review.pdf`  
   Selected review slides from the Tübingen experimental project. The slides
   document the experimental development path around YBCO Josephson
   diode/ratchet devices, including device geometry, measurement results,
   pre-fabrication reasoning, and laboratory context.
 
-## Related instrumentation documentation
+## Related documentation
 
-For deeper setup and hardware documentation, see:
+* `../future-noise-operation/`  
+  Follow-up setup-characterization material prepared for future direct
+  noise-driven Josephson-ratchet operation.
 
-* `../instrumentation/noise-characterization/`
-  Noise-chain analysis for ADC, generator, voltage amplifier, current source,
-  resistors, and dipstick configurations.
-
-* `../instrumentation/dc-dipstick/`
+* `../instrumentation/dc-dipstick/`  
   DC cryogenic dipstick design, CAD renders, mechanical drawings, PCB layout,
   fabricated parts, and assembly photographs.
 
@@ -38,7 +36,6 @@ Goldobin, "Josephson diode fabricated by focused-helium-ion-beam irradiation,"
 Physical Review Applied 24, 014041 (2025).
 
 *Equal contribution.
-
 
 ## Scope and contribution note
 
@@ -57,9 +54,5 @@ out by me personally. It is intended to document the analysis, experimental
 preparation, instrumentation context, and thesis-era material connected to my
 contribution.
 
-
-
-
 The journal paper should be cited for the final published scientific results.
 This folder is intended as supporting experimental R&D documentation.
-
