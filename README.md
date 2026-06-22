@@ -5,11 +5,14 @@ experimental review material, and instrumentation documentation connected to my
 MSc project at the University of Tübingen on YBa2Cu3O7 Josephson diode/ratchet
 devices fabricated by focused helium-ion-beam irradiation.
 
+
+
+
 The project contributed to:
 
 Christoph Schmid<sup>*</sup>, Alireza Jozani<sup>*</sup>, Reinhold Kleiner,
 Dieter Koelle, Edward Goldobin, "Josephson diode fabricated by
-focused-helium-ion-beam irradiation," Physical Review Applied 24, 014041
+focused-helium-ion-beam irradiation," Physical review Applied 24, 014041
 (2025).
 
 <sup>*</sup>Equal contribution.
@@ -32,7 +35,7 @@ cryogenic measurement infrastructure.
 - quasistatic Gaussian/noise-drive rectification calculations;
 - voltage/current acquisition and noise-characterization legacy scripts;
 - experimental R&D review slides;
-- future noise-operation preparation notes;
+- noise-operation and preparation of the setup for future experiemtn;
 - cryogenic dipstick and instrumentation documentation;
 - thesis PDF and preserved legacy scripts from the original workflow.
 
