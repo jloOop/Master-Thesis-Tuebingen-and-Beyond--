@@ -1,4 +1,3 @@
-# Master Thesis Tübingen and Beyond
 
 ## What this repository demonstrates
 Public portfolio archive for superconducting-device R&D context, YBCO Josephson diode/ratchet analysis, cryogenic I–V interpretation, critical-current asymmetry, rectification, output-power and efficiency analysis, measurement-chain reasoning, and cryogenic/instrumentation documentation.
