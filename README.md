@@ -3,7 +3,7 @@
 Public portfolio archive for superconducting-device R&D context, YBCO Josephson diode/ratchet analysis, cryogenic I–V interpretation, critical-current asymmetry, rectification, output-power and efficiency analysis, measurement-chain reasoning, and cryogenic/instrumentation documentation.
 
 ## Research context
-This repository supports superconducting-device and applied-physics portfolio claims related to YBCO Josephson diode/ratchet work.
+This repository supports superconducting-device and applied-physics portfolio related to YBCO Josephson diode/ratchet work.
 
 ## Relevant topics
 - YBCO Josephson diode / Josephson ratchet
