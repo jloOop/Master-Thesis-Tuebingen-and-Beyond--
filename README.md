@@ -166,17 +166,6 @@ This repository **does not** claim:
 - that all notebooks/scripts run without the original lab environment;
 - that the final direct noise-driven Josephson-ratchet experiment was completed.
 
-Safe wording:
-
-> Public portfolio/archive documenting superconducting-device analysis, YBCO Josephson diode/ratchet context, cryogenic I--V interpretation, rectification calculations, setup-level noise-chain preparation, and cryogenic instrumentation documentation.
-
-Unsafe wording to avoid:
-
-> I solely fabricated the device.  
-> I operated the He-FIB independently.  
-> I completed the final noise-driven ratchet experiment.  
-> This is a production instrument-control software package.  
-> This repository proves industrial quantum-device production ownership.
 
 ---
 
