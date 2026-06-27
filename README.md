@@ -23,9 +23,9 @@ This repository does not claim sole fabrication ownership, sole He-FIB operation
 
 ### The project contributed to:
 
-Christoph Schmid*<sup>*</sup>, Alireza Jozani<sup>*</sup>, Reinhold Kleiner,
-Dieter Koelle, Edward Goldobin, "Josephson diode fabricated by
-focused-helium-ion-beam irradiation," Physical review Applied 24, 014041
+Christoph Schmid<sup>&ast;</sup>, Alireza Jozani<sup>&ast;</sup>, Reinhold Kleiner,
+Dieter Koelle, Edward Goldobin, “Josephson diode fabricated by
+focused-helium-ion-beam irradiation,” *Physical Review Applied* **24**, 014041
 (2025).
 
-<sup>*</sup>Equal contribution.
+<sup>&ast;</sup> Equal contribution.
