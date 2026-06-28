@@ -1,87 +1,61 @@
-# YBCO Josephson diode / Josephson-ratchet portfolio
+# Master Thesis Tübingen and Beyond — YBCO Josephson Ratchet Portfolio
 
-Public portfolio archive for superconducting-device R&D material connected to the Tübingen YBCO Josephson diode / Josephson-ratchet project. The repository documents thesis-era notebooks, selected analysis workflows, experimental review material, cryogenic/instrumentation notes, and follow-up measurement-chain preparation.
-
-This is a research and documentation archive, not a polished instrument-control package or production software library.
-
-## Start here
-
-| Entry point | What it shows | Best for |
-|---|---|---|
-| [`notebooks/01_chip_characterization.ipynb`](notebooks/01_chip_characterization.ipynb) | Chip / IVC / device-characterization workflow | Superconducting-device analysis |
-| [`notebooks/02_sine_drive_rectification.ipynb`](notebooks/02_sine_drive_rectification.ipynb) | Deterministic sine-drive rectification from measured IVCs | Device-performance analysis |
-| [`notebooks/03_gaussian_drive_rectification.ipynb`](notebooks/03_gaussian_drive_rectification.ipynb) | Quasistatic Gaussian/noise-drive rectification calculations | Noise-drive modeling / data analysis |
-| [`notebooks/04_noise_signal_tests.ipynb`](notebooks/04_noise_signal_tests.ipynb) | Noise-signal tests and measurement-chain context | Instrumentation / readout preparation |
-| [`docs/experimental-rd-highlights/`](docs/experimental-rd-highlights/) | Selected experimental review slides and project context | Recruiter-readable project overview |
-| [`docs/instrumentation/`](docs/instrumentation/) | Cryogenic dipstick and noise-chain documentation | Applied physics / instrumentation |
-| [`docs/future-noise-operation/`](docs/future-noise-operation/) | Setup-level preparation for future direct noise-operation studies | Low-noise readout preparation |
-| [`docs/paper/`](docs/paper/) | Publication connection and citation | Publication-backed evidence |
-| [`docs/thesis/`](docs/thesis/) | MSc thesis PDF | Full scientific background |
+Public superconducting-device R&D portfolio archive connected to my MSc research at the University of Tübingen and follow-up documentation around YBCO Josephson diode / Josephson-ratchet analysis.
 
 ## What this repository demonstrates
 
-- Cryogenic IVC / I-V analysis for YBCO Josephson-ratchet devices.
-- Magnetic-field / coil-current dependent critical-current extraction, including \(I_{c+}\), \(I_{c-}\), and critical-current asymmetry.
-- Deterministic AC-drive rectification analysis: \(V_{dc}(I_{ac})\).
-- Loaded-ratchet performance analysis: output power \(P_{out}\), input power \(P_{in}\), and thermodynamic efficiency \(\eta\).
-- Quasistatic Gaussian/noise-drive rectification calculations from measured asymmetric IVCs.
-- Measurement-chain reasoning around DAQ/ADC hardware, waveform generator, current source, voltage preamplifier, resistive loads, FFT/PSD spectra, and cryogenic dipstick configurations.
-- Public documentation of superconducting-device R&D context, selected figures, notebooks, and thesis-era material.
+This repository documents analysis and supporting material for:
 
-## Scientific context
+- YBCO Josephson diode / Josephson-ratchet work
+- cryogenic I-V / IVC interpretation
+- critical-current asymmetry extraction
+- deterministic AC-drive rectification
+- quasistatic Gaussian/noise-drive rectification calculations
+- loaded-ratchet output power and thermodynamic efficiency
+- measurement-chain reasoning
+- cryogenic and instrumentation documentation
 
-Josephson ratchets use asymmetric critical currents in a Josephson junction to rectify an applied zero-mean drive into a directed DC voltage. In this project, the device platform was a YBCO thin-film Josephson diode / ratchet based on in-line Josephson-junction geometry and focused He+ beam project context.
+## Start here
 
-The published collaborative paper reports a YBCO Josephson diode operating as a high-efficiency ratchet with critical-current asymmetry 7, rectified voltage up to 212 µV, output power up to 0.2 nW, thermodynamic efficiency up to about 75%, and an essential area around 1 µm².
+| Path | Purpose |
+|---|---|
+| `notebooks/01_chip_characterization.ipynb` | Chip / IVC / critical-current characterization |
+| `notebooks/02_sine_drive_rectification.ipynb` | Deterministic sine-drive rectification from measured IVCs |
+| `notebooks/03_gaussian_drive_rectification.ipynb` | Quasistatic Gaussian/noise-drive rectification calculations |
+| `docs/paper/` | Publication context |
+| `docs/thesis/` | MSc thesis material |
+| `docs/instrumentation/` | Cryogenic measurement and dipstick documentation |
+| `docs/future-noise-operation/` | Setup-level preparation for future noise-operation studies |
+| `legacy/` | Preserved original scripts and notebooks |
 
-## Related publication
+## Research context
 
-Christoph Schmid*, Alireza Jozani*, Reinhold Kleiner, Dieter Koelle, Edward Goldobin, “Josephson diode fabricated by focused-helium-ion-beam irradiation,” *Physical Review Applied* **24**, 014041 (2025).  
-DOI: `10.1103/vqhx-16ss`  
-arXiv: `2408.01521`  
-\* Equal contribution.
+The work is connected to the YBCO Josephson diode / Josephson-ratchet project at the University of Tübingen.
 
-## Repository layout
+Related publication:
 
-```text
-notebooks/
-  01_chip_characterization.ipynb
-  02_sine_drive_rectification.ipynb
-  03_gaussian_drive_rectification.ipynb
-  04_noise_signal_tests.ipynb
+Christoph Schmid*, Alireza Jozani*, Reinhold Kleiner, Dieter Koelle, and Edward Goldobin,  
+“Josephson diode fabricated by focused-helium-ion-beam irradiation,”  
+Physical Review Applied 24, 014041 (2025).
 
-docs/
-  experimental-rd-highlights/
-  future-noise-operation/
-  instrumentation/
-  paper/
-  thesis/
+## Scope and boundaries
 
-figures/
-legacy/
-src/josephson_ratchet/
-```
+This repository supports claims about superconducting-device analysis, cryogenic I-V interpretation, critical-current asymmetry, rectification calculations, output-power / efficiency extraction, and measurement-chain reasoning.
 
-## Reproducibility and hardware-dependence
+It should not be used to claim:
 
-This repository combines analysis notebooks, documentation, figures, thesis-era material, and preserved legacy scripts. Some notebooks can be inspected as analysis workflows; some scripts require original laboratory hardware, measurement files, or lab-specific configuration and are included as archival evidence rather than plug-and-play software.
+- sole fabrication ownership
+- sole He-FIB operation
+- full cleanroom process ownership
+- completed final direct noise-driven Josephson-ratchet device operation
+- production software engineering
+- commercial instrument-control software
 
-## Contribution and scope boundary
+## Best-fit role families
 
-This repository documents my thesis-era contribution to superconducting-device analysis, Josephson-ratchet performance interpretation, measurement-chain reasoning, and experimental R&D documentation.
-
-It does **not** claim:
-
-- sole fabrication ownership;
-- sole He-FIB operation;
-- full cleanroom process ownership;
-- completed final direct noise-driven Josephson-ratchet operation;
-- production instrument-control software;
-- commercial or industrial device-production ownership.
-
-For final published device results, cite the Physical Review Applied paper. For portfolio review, use this repository as supporting evidence of superconducting-device analysis, cryogenic I-V interpretation, measurement-chain reasoning, and physics-based Python/Jupyter workflows.
-
-
-
-
-
+- Quantum Hardware / Cryogenic R&D
+- Superconducting Devices
+- Applied Physics / Instrumentation
+- Device Characterization
+- Physics-Based Data Analysis
+- Measurement-Chain / Low-Noise Readout Preparation
