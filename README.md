@@ -38,4 +38,14 @@ Christoph Schmid*, Alireza Jozani*, Reinhold Kleiner, Dieter Koelle, and Edward 
 “Josephson diode fabricated by focused-helium-ion-beam irradiation,”  
 Physical Review Applied 24, 014041 (2025).
 
+## Scope and boundaries
+
+This repository supports claims about superconducting-device analysis, cryogenic I-V interpretation, critical-current asymmetry, rectification calculations, output-power / efficiency extraction, and measurement-chain reasoning.
+
+It should not be used to claim:
+
+- sole fabrication ownership
+- sole He-FIB operation
+- full cleanroom process ownership
+- production software engineering
 
