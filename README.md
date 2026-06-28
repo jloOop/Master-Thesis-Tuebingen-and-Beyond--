@@ -32,7 +32,7 @@ This is a research and documentation archive, not a polished instrument-control 
 
 Josephson ratchets use asymmetric critical currents in a Josephson junction to rectify an applied zero-mean drive into a directed DC voltage. In this project, the device platform was a YBCO thin-film Josephson diode / ratchet based on in-line Josephson-junction geometry and focused He+ beam project context.
 
-The published collaborative paper reports a YBCO Josephson diode operating as a high-efficiency ratchet with critical-current asymmetry 7.008, rectified voltage up to 212 µV, output power up to 0.2 nW, thermodynamic efficiency up to about 75%, and an essential area around 1 µm².
+The published collaborative paper reports a YBCO Josephson diode operating as a high-efficiency ratchet with critical-current asymmetry 7, rectified voltage up to 212 µV, output power up to 0.2 nW, thermodynamic efficiency up to about 75%, and an essential area around 1 µm².
 
 ## Related publication
 
