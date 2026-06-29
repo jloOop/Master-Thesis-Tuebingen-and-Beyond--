@@ -1,6 +1,6 @@
 # Master Thesis Tübingen and Beyond — YBCO Josephson Ratchet Portfolio
 
-Public superconducting-device R&D portfolio archive connected to MSc-era YBCO Josephson diode / Josephson-ratchet work at the University of Tübingen and later setup-level readout/instrumentation documentation.
+Public superconducting-device R&D portfolio archive connected to MSc-era YBCO Superconducting diode / Josephson-ratchet work at the University of Tübingen and later setup-level readout/instrumentation documentation.
 
 This repository is meant as a compact inspection point for cryogenic I-V / IVC analysis, `Ic(H)` / `Ic(Icoil)` asymmetry extraction, AC-drive and quasistatic Gaussian/noise-drive rectification calculations from measured IVCs, loaded-ratchet `Pout` / `Pin` / `η` analysis, measurement-chain reasoning, and cryogenic dipstick documentation.
 
