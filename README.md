@@ -1,6 +1,6 @@
 # Master Thesis Tübingen and Beyond — YBCO Josephson Ratchet Portfolio
 
-Public superconducting-device R&D portfolio archive connected to my MSc research at the University of Tübingen and follow-up documentation around YBCO Josephson diode / Josephson-ratchet analysis.
+Public superconducting-device R&D portfolio archive connected to my MSc research at the University of Tübingen and follow-up documentation around YBCO Josephson diode (superconducting diode) / Josephson-ratchet analysis.
 
 ## What this repository demonstrates
 
