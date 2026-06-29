@@ -69,7 +69,7 @@ The Gaussian/noise-drive workflow evaluates quasistatic rectification, output po
 
 ### 4. Measurement-chain preparation
 
-The instrumentation and future-noise-operation folders document setup-level noise-source identification, ADC / generator / current-source / voltage-amplifier configurations, resistor and dipstick tests, and cryogenic measurement hardware context.
+The instrumentation and future-noise-operation folders document setup-level noise-source identification, ADC / generator / current-source / voltage-amplifier configurations, resistor and dipstick noise diagnostics, and cryogenic measurement hardware context.
 
 ## Repository map
 
