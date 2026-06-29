@@ -1,12 +1,5 @@
 # Notebooks
 
-| Notebook | Purpose | Runs without lab hardware? | Data included? | Expected output |
-|---|---|---:|---:|---|
-| 01_chip_characterization.ipynb | IVC/Ic characterization | Yes | needs manual check | Ic+/Ic−, A(Icoil) |
-| 02_sine_drive_rectification.ipynb | Vdc(Iac) from measured IVC | Yes | Yes after adding CSV | Vdc curve |
-| 03_gaussian_drive_rectification.ipynb | Gaussian/noise-drive calculation | Yes | needs manual check | Vdc/Pout/Pin/η vs σ |
-| 04_noise_signal_tests.ipynb | Noise tests/readout prep | Partly | needs manual check | PSD/noise diagnostics |
-
 
 This folder contains the main clean notebook entry points for inspecting the thesis-era YBCO Josephson-ratchet analysis workflow.
 
