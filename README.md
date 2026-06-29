@@ -6,12 +6,12 @@ This repository is meant as a compact inspection point for cryogenic I-V / IVC a
 
 ## Visual overview
 
-| Device characterization | Rectification / stochastic-drive calculation | Readout and instrumentation |
+| Area | What it shows | Fast entry point |
 |---|---|---|
-| <img src="figures/01_ivc_ic_asymmetry_overview.png" width="360"> | <img src="figures/02_sine_drive_rectification.png" width="360"> | <img src="figures/04_noise_chain_fft_psd_summary.png" width="360"> |
-| `Ic(Icoil)`, asymmetric IVC, `Vdc(Iac)` | measured IVC → rectification curve | ADC/noise-chain FFT/PSD diagnostic |
-| <img src="figures/03_gaussian_noise_drive_calculation.png" width="360"> | <img src="figures/05_dc_dipstick_cad_render.png" width="360"> | See `docs/instrumentation/` |
-| quasistatic Gaussian/noise-drive calculation | DC cryogenic dipstick CAD/rendering | setup-level documentation |
+| Device characterization | `Ic(Icoil)`, asymmetric IVCs, `Ic+`/`Ic−`, optimum-field asymmetry, and `Vdc(Iac)` context. | `notebooks/01_chip_characterization.ipynb`; `docs/experimental-rd-highlights/` |
+| Rectification calculations | Measured asymmetric IVC → deterministic sine-drive rectification and loaded-ratchet `Pout` / `Pin` / `η`. | `notebooks/02_sine_drive_rectification.ipynb` |
+| Gaussian/noise-drive calculations | Quasistatic Gaussian/noise-drive rectification calculated from measured IVCs; not final direct external-noise operation. | `notebooks/03_gaussian_drive_rectification.ipynb`; `docs/future-noise-operation/` |
+| Readout and instrumentation | ADC/noise-chain FFT/PSD diagnostics, current-source / voltage-amplifier / generator context, and cryogenic dipstick documentation. | `docs/instrumentation/`; `docs/instrumentation/noise-characterization/`; `docs/instrumentation/dc-dipstick/` |
 
 ## Key outputs and symbols
 
