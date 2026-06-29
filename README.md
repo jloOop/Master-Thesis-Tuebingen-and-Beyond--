@@ -8,6 +8,8 @@
 
 This repository is a public superconducting-device R&D portfolio archive connected to my MSc research at the University of Tübingen and follow-up documentation around YBCO Josephson diode / Josephson-ratchet analysis.
 
+This repository is a public superconducting-device R&D portfolio archive connected to my MSc-era YBCO Josephson diode/ratchet work at the University of Tübingen. It documents cryogenic I–V/IVC analysis, Ic(H)/Ic(Icoil) asymmetry extraction, AC-drive and quasistatic Gaussian-drive rectification calculations from measured IVCs, loaded-ratchet Pout/Pin/η analysis, and later setup-level readout/noise-chain identification and cryogenic dipstick documentation.
+
 It is intended as a compact entry point for inspecting the analysis, notebooks, figures, thesis material, publication context, and measurement-chain documentation associated with the project.
 
 ## Technical focus
