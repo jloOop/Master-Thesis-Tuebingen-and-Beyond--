@@ -45,6 +45,24 @@ C. Schmid*, A. Jozani*, R. Kleiner, D. Koelle, and E. Goldobin, **“YBa₂Cu₃
 
 `*` Equal contribution.
 
+## Representative workflows
+
+### 1. Cryogenic IVC and critical-current asymmetry
+
+The chip-characterization workflow examines cryogenic I-V / IVC data, extracts positive and negative critical currents, and identifies magnetic-field / coil-current working points with strong critical-current asymmetry.
+
+### 2. Deterministic AC-drive rectification
+
+The sine-drive workflow uses measured asymmetric IVCs to calculate rectified DC voltage curves under quasistatic sinusoidal drive and loaded-ratchet operation.
+
+### 3. Gaussian/noise-drive calculations
+
+The Gaussian/noise-drive workflow evaluates quasistatic rectification, output power, input power, and efficiency from measured IVCs under stochastic-drive assumptions.
+
+### 4. Measurement-chain preparation
+
+The instrumentation and future-noise-operation folders document setup-level noise-source identification, ADC / generator / current-source / voltage-amplifier configurations, resistor and dipstick noise diagnostics, and cryogenic measurement hardware context.
+
 ## Repository map
 
 ```text
