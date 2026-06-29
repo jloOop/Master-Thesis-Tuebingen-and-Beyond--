@@ -8,7 +8,7 @@ This repository is meant as a compact inspection point for cryogenic I-V / IVC a
 
 | Area | What it shows | Fast entry point |
 |---|---|---|
-| Device characterization | `Ic(Icoil)`, asymmetric IVCs, `Ic+`/`Ic−`, optimum-field asymmetry, and `Vdc(Iac)` context. | `notebooks/01_chip_characterization.ipynb`; `docs/experimental-rd-highlights/` |
+| Device characterization | `Ic(Icoil)`, asymmetric IVCs, `Ic+`/`Ic−`, optimum-field asymmetry, and `Vdc(Iac)` context. | `notebooks/01_chip_characterization.ipynb` and `02_sine_drive_rectification.ipynb`; `docs/experimental-rd-highlights/` |
 | Rectification calculations | Measured asymmetric IVC → deterministic sine-drive rectification and loaded-ratchet `Pout` / `Pin` / `η`. | `notebooks/02_sine_drive_rectification.ipynb` |
 | Gaussian/noise-drive calculations | Quasistatic Gaussian/noise-drive rectification calculated from measured IVCs; not final direct external-noise operation. | `notebooks/03_gaussian_drive_rectification.ipynb`; `docs/future-noise-operation/` |
 | Readout and instrumentation | ADC/noise-chain FFT/PSD diagnostics, current-source / voltage-amplifier / generator context, and cryogenic dipstick documentation. | `docs/instrumentation/`; `docs/instrumentation/noise-characterization/`; `docs/instrumentation/dc-dipstick/` |
