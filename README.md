@@ -7,8 +7,8 @@ Public superconducting-device R&D portfolio archive connected to my MSc research
 This repository documents analysis and supporting material for:
 
 - YBCO Josephson diode / Josephson-ratchet work
-- cryogenic I-V / IVC interpretation
-- critical-current asymmetry extraction
+- cryogenic I-V / IVC interpretation,
+- critical-current vs magnetic field asymmetry extraction
 - deterministic AC-drive rectification
 - quasistatic Gaussian/noise-drive rectification calculations
 - loaded-ratchet output power and thermodynamic efficiency
